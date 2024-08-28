@@ -1,0 +1,40 @@
+.animatsiya {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.animatsiya:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes spin-moon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Sun ikoni uchun animatsiya */
+@keyframes spin-sun {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* Moon va Sun ikonlarga animatsiya qo'shish */
+.moon-icon.spin {
+  animation: spin-moon 2s linear infinite;
+}
+
+.sun-icon.spin {
+  animation: spin-sun 2s linear infinite;
+}
+
+/* Sun ikonining animatsiyasini o'chirish */
+.sun-icon {
+  transition: opacity 0.5s;
+}

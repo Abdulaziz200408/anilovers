@@ -1,0 +1,37 @@
+@media screen and (max-width: 767) {
+  .mtop {
+    margin-top: 100px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .best {
+    margin-top: -70px;
+    justify-content: center;
+  }
+  .footer {
+    margin-top: 20px !important;
+  }
+
+  .modal {
+    transition: top 0.3s ease;
+    top: calc(50% - 250px) !important;
+  }
+
+  .body {
+    position: relative;
+    height: 40vh;
+  }
+  #section_card {
+    margin-top: 70px !important;
+  }
+  .row_top {
+    margin-top: 215px !important;
+  }
+  .mltr {
+    margin-left: 10px;
+  }
+  /* .footer_img {
+    margin-top: 300px !important;
+  } */
+}
